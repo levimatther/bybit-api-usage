@@ -18,6 +18,7 @@ session.request("GET",URL+"/v2/public/time")
 topic="user.order.contractAccount"
 symbol="BTCUSDT"
 
+# my bybit api 
 import websocket
 from urllib3.connection import HTTPConnection
 HTTPConnection.debuglevel=0
